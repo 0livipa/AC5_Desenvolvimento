@@ -12,5 +12,9 @@ def rounte():
 @app.route('/Detalhecurso')
 def rounte1():
     return render_template('Detalhes.html')
+#Felipe - Atualizando página de disciplina
+@app.route('/Disciplina')
+def rounte2():
+    return render_template('Disciplina.html')
 
 app.run()

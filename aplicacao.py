@@ -8,6 +8,7 @@ def index():
 def rounte():
     return render_template('cursos.html')
 
+#Suelen - Atualizando página de detalhes
 @app.route('/Detalhecurso')
 def rounte1():
     return render_template('Detalhes.html')

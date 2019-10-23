@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 app = Flask(__name__)
+#Leonardo - Atualizando página da home
 @app.route('/')
 def index():
     return render_template('Index.html')
